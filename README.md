@@ -1,6 +1,8 @@
 # Concentrators-and-Completers-Calculator-
 This is a macro I created that a data analyst at a school district uses to go from raw data pulled from PowerSchool to data that can be quickly uploaded back to PowerSchool.  The macro takes the courses that a student took and increments them specifically to what the requirements are for a concentrator or a completer within each program of study.  Once the student has been incremented there are checks after each incrementation that will display information based on when they became a concetrator or a completer.   
 
+Update: 5.6.24 - Customer wants to include an additional field (CIP Code).  Received the corresponding codes and will implement a change within the concentrator and completer checks below.
+
 ```vbscript
 
 Public Sub increments()
